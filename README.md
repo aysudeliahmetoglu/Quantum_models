@@ -24,3 +24,23 @@ You can install the required libraries using the following commands:
 
 ```bash
 pip install qiskit matplotlib
+```
+
+### Usage
+Clone the Repository: First, clone the repository to your local machine:
+
+```bash
+
+git clone https://github.com/aysudeliahmetoglu/QuantumModels.git
+```
+Create a Quantum Circuit: Open the quantum_model.py file in your preferred editor (e.g., VSCode, PyCharm). The script demonstrates how to create a quantum circuit, apply quantum gates (like Hadamard), and perform measurements.
+
+Run the Simulation: To simulate the quantum circuit, you can execute the quantum_model.py file:
+
+```bash
+
+python quantum_model.py
+```
+This will run the quantum circuit on a local simulator and display the results using a histogram.
+
+View the Visualization: The script will generate and display a histogram showing the result of the quantum measurements. You can also save the histogram as an image by modifying the script.
